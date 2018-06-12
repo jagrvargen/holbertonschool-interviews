@@ -14,7 +14,7 @@ if __name__ == "__main__":
 
     for i in range(1, 11):
         u_url = url + str(i)
-        name = requests.get(u_url).json().get("name")
+        name = requests.get(u_url).json().get("username")
         todos = requests.get(u_url + "/todos").json()
         u_list = list()
 
