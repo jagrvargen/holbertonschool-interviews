@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "binary_trees.h"
+#include "search_algos.h"
 
 /**
  * binary_tree_is_full - Checks if a binary tree is full.
